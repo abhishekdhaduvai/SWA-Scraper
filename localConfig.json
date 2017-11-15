@@ -1,0 +1,15 @@
+{
+  "development": {
+    "accountSid": "{Add your Twilio accountSid here}",
+    "authToken": "{Add your Twilio authToken here}",
+    "toPhoneNumber": "{Add your phone number here (with the country code. Eg: +1 for US)}",
+    "fromPhoneNumber": "{Add your Twilio phone number here (with the country code. Eg: +1 for US)}",
+    "originAirport": "{Origin Airport 3 letter code here. Eg: SFO for San Fransisco}",
+    "destinationAirport": "{Destination Airport 3 letter code here. Eg: LAX for Los Angeles}",
+    "outboundDateString": "{Departure date in mm/dd/yyyy format. Eg: 11/22/2017}",
+    "returnDateString": "{Return date in mm/dd/yyyy format. Eg: 11/26/2017}",
+    "adultPassengerCount": "{Number of adult passengers}",
+    "threshold": 300, //Set the price threshold for one-way. You'll receive a text if either way's fare is below this threshold
+    "interval": 60 //(in Minutes) Set how frequently you want to check the prices
+  }
+}

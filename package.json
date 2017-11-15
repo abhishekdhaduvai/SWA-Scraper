@@ -1,0 +1,17 @@
+{
+  "name": "swa-scraper",
+  "version": "1.0.0",
+  "description": "App to monitor Southwest Airlines flight prices and send a text message when the prices are below a threshold",
+  "main": "app.js",
+  "author": "Abhishek Dhaduvai",
+  "license": "MIT",
+  "engines": {
+    "node": "7.5.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "osmosis": "^1.1.4",
+    "twilio": "^3.9.3"
+  }
+}

@@ -1,0 +1,21 @@
+---
+applications:
+  - name: swa-scraper
+    memory: 128M
+    timeout: 180
+    buildpack: nodejs_buildpack
+    command: node app.js
+    path: .
+env:
+    node_env: cloud
+    #accountSid: Add your Twilio accountSid here
+    #authToken: Add your Twilio authToken here
+    #toPhoneNumber: Add your phone number here (with the country code. Eg: +1 for US)
+    #fromPhoneNumber: Add your Twilio phone number here (with the country code. Eg: +1 for US)
+    #originAirport: SFO
+    #destinationAirport: LAX
+    #outboundDateString: 11/22/2017
+    #returnDateString: 11/26/2017
+    #adultPassengerCount: 1
+    #threshold: 300
+    #interval: 60
