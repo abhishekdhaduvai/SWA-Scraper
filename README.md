@@ -2,10 +2,10 @@
 
 This project is based on, and uses some code from <a href="https://github.com/gilby125/swa-dashboard">https://github.com/gilby125/swa-dashboard</a>
 
-This app lets you monitor Southwest Airlines for your flight's price and notifies you via a text message when the prices fall below a threshold.
+This app lets you monitor Southwest Airlines for your flight's price and notifies you via a text message when the prices fall below a threshold. You will need a Twilio account to send text messages. You can create a free trial account <a href="https://www.twilio.com/">here</a>.
 
 ## Running locally
-If you want to run a local server, update the ```localConfig.json``` file with your Twilio credentials, and your flight details. The app will search for your flight every ${threshold} minutes, and if your Twilio credentials are valid, you will recieve a text message when either the outbound or return ticket price falls below the threshold you set. You will get a text only if the new ticket price is lower than the threshold AND lower than the previous value.
+To run app locally, update the ```localConfig.json``` file with your Twilio credentials, and your flight details. The app will search for your flight every ${threshold} minutes, and if your Twilio credentials are valid, you will recieve a text message when either the outbound or return ticket price falls below the threshold you set. You will get a text only if the new ticket price is lower than the threshold AND lower than the previous value.
 
 For example,
 
